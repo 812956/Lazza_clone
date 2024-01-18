@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* nav bar*/
+#nav_img{
+width: 8rem;
+height: 4.119rem;
+}
+
+.header{
+    background: #000;
+    height: 5.994rem;
+    padding: 0.875rem;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.nav-logo-img{
+    width: 23px;
+    height: 23px;
+    margin-right: 1.5rem;
+   
+}
+
+.nav-logo-img:hover{
+  transform: scale(1.5);
+} 
+
+
+/*main banner section*/
+.main_banner_section{
+  overflow: hidden;
+}
+
+.main_banner{
+  margin-top: 96px;
+}
+
+
+
+/*our product section*/
+.our_products{
+  padding: 5% 0px;
+}
+
+.our_products{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#adv_h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.img1{
+  margin-bottom: 50px;
+}
+
+.img1>h3>a{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.img1>h3{
+  margin-top: 20px;
+  
+}
+
+
+/*footer banner*/
+.foot_ban_section{
+  background: #be9509;
+  padding: 20px 0px;
+  border-bottom: 1px solid ;
+}
+
+
+.footer-section{
+  background: #000;
+  padding: 20px 60px;
+}
+
+
+.foot_options>h4{
+  color: #be9509;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.foot_options>ul{
+  list-style: none;
+  
+} 
+.foot_options>ul,li{
+  padding-left: 0;
+  color: #be9509;
+  font-size: 15px;
+  
+}
+
+#foot_icons{
+  margin-top: 10px;
+}
+#foot_icons img{
+  margin-right: 5px;
+}
+
+
+/* copyright */
+
+.copy_right{
+  background-color: #000;
+  border-top: solid 1px #666;
+  max-height: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: #ffc107;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+
+@media(max-width:991px){
+ /* nav bar */
+
+  #nav_img{
+    width: 6.25rem;
+    height: 3.438rem;
+    margin-top: -4px;
+    margin-left: -30px;
+  }
+
+  #navbarSupportedContent{
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: black;
+  }
+  .header{
+    height: 74px;
+  }
+  
+  #han_burg{
+    position: fixed;
+    left: 80%;
+    margin-bottom: 15px;
+    right: 10px;
+  }
+  
+  #to_cente{
+    position: absolute;
+    right: 42%;
+    top: 2px;
+  }
+  #hand-bur-icon{
+   width: 30px;
+   height: 30px;
+   font-size: 28px;
+   border-radius: 5px;
+  }
+
+  /* main banner */
+
+  .main_banner{
+    margin-top: 74px;
+  }
+
+
+  
+
+}
+
+
+@media(max-width:744px){
+  #adv_h1{
+    font-size: 30px;
+  }
+  #to_cente{
+    position: absolute;
+    right: 45%;
+    top: 2px;
+  }
+}
+
+@media(max-width:385px){
+  .nav-logo-img{
+    margin-right: 0px;
+  }
+  #hand-bur-icon{
+     margin-left: -2rem;
+  }
+}
